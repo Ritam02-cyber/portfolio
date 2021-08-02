@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from . models import *
 from django.core.mail import EmailMessage
 from django.conf import settings
